@@ -3,7 +3,8 @@ import { BrowserProvider, JsonRpcSigner } from "ethers";
 import { useMemo } from "react";
 import { useAccount, useWalletClient, UseWalletClientReturnType } from "wagmi";
 
-const GATEKEEPER_NETWORK = "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6"; // Captcha pass
+const GATEKEEPER_NETWORK = "uniqobk8oGh4XBLMqM68K8M2zNu3CdYX7q5go7whQiv"; // Uniqueness pass
+// const GATEKEEPER_NETWORK = "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6"; // Captcha pass
 // const GATEKEEPER_NETWORK = "vaa1QRNEBb1G2XjPohqGWnPsvxWnwwXF67pdjrhDSwM"; // Liveness pass (video selfie)
 
 
