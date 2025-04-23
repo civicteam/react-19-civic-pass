@@ -10,8 +10,10 @@ export const wagmiConfig = createConfig({
   },
 });
 
+const WALLETCONNECT_PROJECT_ID = '<reown cloud project ID here>';
+
 export const rainbowkitConfig = getDefaultConfig({
     appName: 'Civic Ethereum example',
-    projectId: process.env.WALLETCONNECT_PROJECT_ID || '',
+    projectId: WALLETCONNECT_PROJECT_ID,
     chains: [mainnet, sepolia],
 });
