@@ -205,14 +205,14 @@
     prop-types "^15.8.1"
     ramda "^0.30.0"
 
-"@civic/ethereum-gateway-react@1.4.7-beta.0":
-  version "1.4.7-beta.0"
-  resolved "https://registry.yarnpkg.com/@civic/ethereum-gateway-react/-/ethereum-gateway-react-1.4.7-beta.0.tgz#0cc944b45fa126e9c5053b237c82157aad665af0"
-  integrity sha512-G9l5JR3/MihIaM+5I4y7hsvGChPErEgxjfUKwIEBQjKzxt+4GgX9Dli2JJfHugw7y0EVC60XrklA591HZDrDUA==
+"@civic/ethereum-gateway-react@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@civic/ethereum-gateway-react/-/ethereum-gateway-react-1.4.7.tgz#5e074815ae783886a80f85119a1f97f1228b35f8"
+  integrity sha512-HQvMHkwkEHYiC5pJvserXdcXOxAYicJTDSoBJWMT80ZmGpHofo9SIyYQpoXHlID/3K1vsI1OH7xeO837jdEfkQ==
   dependencies:
     "@civic/ethereum-gateway-chain-client" "0.0.6"
     "@civic/gateway-client-core" "1.1.5"
-    "@civic/gateway-client-react" "1.2.5-beta.1"
+    "@civic/gateway-client-react" "1.2.5"
     "@civic/prove-ethereum-wallet" "1.1.1"
     ethers "^6.12.1"
     prop-types "^15.8.1"
@@ -231,10 +231,10 @@
     zustand "^4.5.2"
     zustand-computed-state "^0.1.3"
 
-"@civic/gateway-client-react@1.2.5-beta.1":
-  version "1.2.5-beta.1"
-  resolved "https://registry.yarnpkg.com/@civic/gateway-client-react/-/gateway-client-react-1.2.5-beta.1.tgz#b0912f0cccfa21bbea00b2e186fe249d600b9c05"
-  integrity sha512-2KY0gnFPZejZZ+RcKa6BvrSK/sCPxHx2cBoN+WSkzK9jksoWnZKgw+2heKDlGl0jCLRv30S99Q6V/QLsjO+opg==
+"@civic/gateway-client-react@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@civic/gateway-client-react/-/gateway-client-react-1.2.5.tgz#856438ff684e99ec49d05da555d21f8e66760fc0"
+  integrity sha512-QwRvE6ai6iR1JTt3ZPz68cSTHwcrHkrBFA16IAxQ1FKOMLbzc7b07yGYfVjPJF6dZe62GVThdSUD36B0r/5Hcg==
   dependencies:
     "@civic/gateway-client-core" "1.1.5"
     "@iframe-resizer/react" "^5.4.5"
@@ -2870,7 +2870,7 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
-fdir@^6.4.3, fdir@^6.4.4:
+fdir@^6.4.4:
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.4.4.tgz#1cfcf86f875a883e19a8fab53622cfe992e8d2f9"
   integrity sha512-1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==
@@ -4210,7 +4210,7 @@ thread-stream@^0.15.1:
   dependencies:
     real-require "^0.1.0"
 
-tinyglobby@^0.2.12:
+tinyglobby@^0.2.13:
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.13.tgz#a0e46515ce6cbcd65331537e57484af5a7b2ff7e"
   integrity sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==
@@ -4433,17 +4433,17 @@ viem@2.x, viem@^2.1.1:
     ox "0.6.9"
     ws "8.18.1"
 
-vite@^6.3.1:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.2.tgz#4c1bb01b1cea853686a191657bbc14272a038f0a"
-  integrity sha512-ZSvGOXKGceizRQIZSz7TGJ0pS3QLlVY/9hwxVh17W3re67je1RKYzFHivZ/t0tubU78Vkyb9WnHPENSBCzbckg==
+vite@^6.3.4:
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-6.3.4.tgz#d441a72c7cd9a93b719bb851250a4e6c119c9cff"
+  integrity sha512-BiReIiMS2fyFqbqNT/Qqt4CVITDU9M9vE+DKcVAsB+ZV0wvTKd+3hMbkpxz1b+NmEDMegpVbisKiAZOnvO92Sw==
   dependencies:
     esbuild "^0.25.0"
-    fdir "^6.4.3"
+    fdir "^6.4.4"
     picomatch "^4.0.2"
     postcss "^8.5.3"
     rollup "^4.34.9"
-    tinyglobby "^0.2.12"
+    tinyglobby "^0.2.13"
   optionalDependencies:
     fsevents "~2.3.3"
 
