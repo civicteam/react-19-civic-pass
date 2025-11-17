@@ -205,14 +205,14 @@
     prop-types "^15.8.1"
     ramda "^0.30.0"
 
-"@civic/ethereum-gateway-react@1.4.7-beta.0":
-  version "1.4.7-beta.0"
-  resolved "https://registry.yarnpkg.com/@civic/ethereum-gateway-react/-/ethereum-gateway-react-1.4.7-beta.0.tgz#0cc944b45fa126e9c5053b237c82157aad665af0"
-  integrity sha512-G9l5JR3/MihIaM+5I4y7hsvGChPErEgxjfUKwIEBQjKzxt+4GgX9Dli2JJfHugw7y0EVC60XrklA591HZDrDUA==
+"@civic/ethereum-gateway-react@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@civic/ethereum-gateway-react/-/ethereum-gateway-react-1.4.7.tgz#5e074815ae783886a80f85119a1f97f1228b35f8"
+  integrity sha512-HQvMHkwkEHYiC5pJvserXdcXOxAYicJTDSoBJWMT80ZmGpHofo9SIyYQpoXHlID/3K1vsI1OH7xeO837jdEfkQ==
   dependencies:
     "@civic/ethereum-gateway-chain-client" "0.0.6"
     "@civic/gateway-client-core" "1.1.5"
-    "@civic/gateway-client-react" "1.2.5-beta.1"
+    "@civic/gateway-client-react" "1.2.5"
     "@civic/prove-ethereum-wallet" "1.1.1"
     ethers "^6.12.1"
     prop-types "^15.8.1"
@@ -231,10 +231,10 @@
     zustand "^4.5.2"
     zustand-computed-state "^0.1.3"
 
-"@civic/gateway-client-react@1.2.5-beta.1":
-  version "1.2.5-beta.1"
-  resolved "https://registry.yarnpkg.com/@civic/gateway-client-react/-/gateway-client-react-1.2.5-beta.1.tgz#b0912f0cccfa21bbea00b2e186fe249d600b9c05"
-  integrity sha512-2KY0gnFPZejZZ+RcKa6BvrSK/sCPxHx2cBoN+WSkzK9jksoWnZKgw+2heKDlGl0jCLRv30S99Q6V/QLsjO+opg==
+"@civic/gateway-client-react@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@civic/gateway-client-react/-/gateway-client-react-1.2.5.tgz#856438ff684e99ec49d05da555d21f8e66760fc0"
+  integrity sha512-QwRvE6ai6iR1JTt3ZPz68cSTHwcrHkrBFA16IAxQ1FKOMLbzc7b07yGYfVjPJF6dZe62GVThdSUD36B0r/5Hcg==
   dependencies:
     "@civic/gateway-client-core" "1.1.5"
     "@iframe-resizer/react" "^5.4.5"
@@ -3252,9 +3252,9 @@ js-sha3@0.8.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
-  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.1.tgz#854c292467705b699476e1a2decc0c8a3458806b"
+  integrity sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==
   dependencies:
     argparse "^2.0.1"
 
